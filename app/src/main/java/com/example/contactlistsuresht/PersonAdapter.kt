@@ -13,7 +13,6 @@ class PersonAdapter(options: FirebaseRecyclerOptions<Person>) :
         RecyclerView.ViewHolder(inflater.inflate(R.layout.row_layout, parent, false)) {
         val txtName: TextView = itemView.findViewById(R.id.txtName)
         val txtRole: TextView = itemView.findViewById(R.id.txtRole)
-        val txtPhoto: TextView = itemView.findViewById(R.id.txtPhoto)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PersonViewHolder {
@@ -24,6 +23,5 @@ class PersonAdapter(options: FirebaseRecyclerOptions<Person>) :
     override fun onBindViewHolder(holder: PersonViewHolder, position: Int, model: Person) {
         holder.txtName.text = model.name
         holder.txtRole.text = model.role
-        holder.txtPhoto.text = model.photo
     }
 }
