@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "110576441143",
+    "project_id": "contactlistsuresht-dbbd1",
+    "storage_bucket": "contactlistsuresht-dbbd1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110576441143:android:6cb10d88a7acacc5062cb2",
+        "android_client_info": {
+          "package_name": "com.example.contactlistsuresht"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0aXeLYFFBk0nsUHrpYKqPXX-LvYH8l7w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
