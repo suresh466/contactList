@@ -52,7 +52,7 @@ dependencies {
     implementation("com.google.firebase:firebase-firestore")
     implementation("com.google.firebase:firebase-storage")
 
-    implementation ("com.firebaseui:firebase-ui-database:8.0.2")
+    implementation ("com.firebaseui:firebase-ui-database:8.0.0")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
