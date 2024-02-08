@@ -33,7 +33,7 @@ class PersonAdapter(options: FirebaseRecyclerOptions<Person>) :
 
         // if it is google storage image then get the reference
         if (theImage.indexOf("gs://")>-1) {
-            val storageReference = FirebaseStorage.getInstance().getReference(theImage)
+            val storageReference = FirebaseStorage.getInstance().getReferenceFromUrl(theImage)
             Glide.with(holder.imgPhoto.context)
                 .load(storageReference)
                 .into(holder.imgPhoto)
